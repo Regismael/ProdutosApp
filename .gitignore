@@ -1,0 +1,61 @@
+# Ignorar arquivos e pastas do Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorar arquivos de configuração
+*.user
+*.suo
+*.cache
+
+# Ignorar arquivos de compilação
+*.dll
+*.exe
+*.pdb
+
+# Ignorar arquivos temporários
+*.TMP
+*.tmp
+*.userprefs
+*.bak
+*.cache
+
+# Ignorar o arquivo de chave de segurança gerado pela IDE (caso esteja usando criptografia)
+*.snk
+
+# Ignorar arquivos de log
+*.log
+*.Log
+
+# Ignorar diretório de publicação
+publish/
+
+# Ignorar arquivos do NuGet
+*.nupkg
+packages/
+
+# Ignorar arquivo de configuração do MSBuild
+*.cache
+*.dat
+*.data
+*.pidb
+*.pdb.xml
+*.resources
+*.iobj
+*.ipdb
+*.ilk
+*.tlog
+
+# Ignorar arquivos gerados pelo Roslyn
+*.editorconfig
+*.ide
+*.sln.docstates
+*.ide-shutdown
+*.csproj.user
+*.ide-testsession
+*.userprefs
+*.obj
+*.rds
+
+# Ignorar arquivos de cache do Test Explorer
+TestResults/
